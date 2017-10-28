@@ -1,0 +1,13 @@
+video {
+	position: absolute;
+	left: 35%;
+	top:15%;
+}
+
+figcaption {
+	position: relative;
+	top: 120px;
+	margin-right: 70%;
+	font-size: 160%;
+	color: rgb(91, 60, 17);
+}

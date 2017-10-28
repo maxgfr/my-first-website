@@ -1,0 +1,44 @@
+@media screen and (max-width: 800px){
+
+	aside {
+		display: none;
+	}
+
+	#menu li:nth-child(3) { /*cache le menu médias*/
+		display: none;
+	}
+
+	#menu li:nth-last-child(2),
+	#menu li:nth-last-child(3),
+	#menu li:nth-last-child(4) { /* affiche ce que j'ai caché */
+    	display: inline-block;
+    }
+
+    #menu li+li { /* enlever la border entre les listes*/
+    border-style: none;
+	}
+
+	/*Page Médias*/
+
+	video {
+		position: inherit;
+		max-width: 480px;
+		max-height: 300px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	figcaption{
+		position: inherit;
+		font-size: inherit;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	#description_manager {
+		position: inherit;
+		text-align: center;
+	}
+}
+

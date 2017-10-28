@@ -1,0 +1,121 @@
+@font-face {
+    font-family: 'quicksandregular';
+    src: url('../fonts/quicksand-regular-webfont.eot');
+    src: url('../fonts/quicksand-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/quicksand-regular-webfont.woff2') format('woff2'),
+         url('../fonts/quicksand-regular-webfont.woff') format('woff'),
+         url('../fonts/quicksand-regular-webfont.ttf') format('truetype'),
+         url('../fonts/quicksand-regular-webfont.svg#quicksandregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}/*généré par fontsquirrel*/
+
+
+
+html { 
+	position: relative;/*pour le pied de page*/
+	min-height: 100%;/*pour le pied de page*/
+}
+
+body {
+	background-image: url(../images/background.jpg);
+	background-size: cover;
+	font-family: quicksandregular;
+	background-repeat: repeat;
+	margin: 0 0 100px; /* pour le pied de page*/
+}
+
+
+
+a:hover {
+	color: red;
+}
+
+
+header {
+	text-align: center;
+	color: white;
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	background-image: url(../images/background2.jpg);
+	background-size: contain;
+	background-repeat: repeat;
+	background-attachment: fixed;
+}
+
+
+
+nav {
+	display:inline-block;
+}
+
+
+
+#menu {
+    text-transform: uppercase;
+    font-size: 150%;
+    text-decoration: none;
+    list-style : none;
+    list-style-type: none; /*menu horizontale*/
+}
+
+#menu li {
+    display: inline-block;/*menu horizontale*/
+    margin-left: 25px;/*menu horizontale*/
+}
+
+
+#menu a {
+    text-decoration: none;
+    color : white;
+}
+
+#menu li ul { /*sert à placer le sous menu*/
+    position: absolute;
+    left:59%;
+}
+
+
+#menu li ul li { /*sous-menu*/
+    display: none; /* pour le cacher*/
+    margin: 0px;
+}
+
+#menu li:hover ul li {/*quand on survole le sous-menu*/
+    display: inline-block;
+    border-style: none; /*ne pas mettre la border à droite*/
+    margin-left: 20px;
+    padding: 0;
+}
+
+#menu li+li { /* border droite pour les titres du menu*/
+    border-top: 0px;
+    border-bottom: 0px;
+    border-right: 0px;
+    border-left: 1px;
+    border-style : ridge;
+    padding-left: 50px;
+}
+
+#menu li:nth-last-child(2),
+#menu li:nth-last-child(3),
+#menu li:nth-last-child(4) { /* ça cache les listes qui ne peuvent s'afficher qu'en dessous 800px */
+    display: none;
+}
+
+
+
+footer {
+	text-align: center;
+	color: #696969;
+	border-style: ridge;
+	border-width: 2px;
+	border-color: #FDF5E6;
+	background-color: #F0FFF0;
+	position: absolute;/*pour le pied de page*/
+    left: -4px;/*pour le pied de page et qui l'évite d'aller trop à droite*/
+    bottom: 0;/*pour le pied de page*/
+    width: 100%;/*pour le pied de page*/
+}

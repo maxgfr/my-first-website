@@ -1,0 +1,53 @@
+h2 {
+	text-align: center;
+	font-style: normal;
+	text-shadow: 2px 3px 2px white;
+}
+
+h3 {
+	text-align: center;
+	text-shadow: 1px 1px 1px red;
+}
+
+.liens_utiles {
+	height: 400px;
+	width: 20%;
+	float: right;
+	border-style: ridge;
+	border-width: 1px;
+	border-color: black;
+	border-radius: 25px/25px;
+	box-shadow: 4px 3px 6px black;
+	background: linear-gradient(to left, white, rgb(110,110,110));
+}
+
+.reseaux_sociaux {
+	position: fixed;
+	top:100px;
+	left: 97%;
+}
+
+#conteneur {
+	background-color: rgb(110,110,110);
+	border-style: inset;
+}
+
+.presentation {
+	font-size: 120%;
+	text-align: left;
+}
+
+.etude {
+	font-size: 110%;
+	text-align: justify;
+	font-style: oblique;
+	padding-top: 50px;
+}
+
+.article {
+	padding-top:20px;
+}
+
+.texte {
+ 	margin-left: 10px; 
+}

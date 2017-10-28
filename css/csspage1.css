@@ -1,0 +1,28 @@
+h3 {
+	text-align: center;
+	text-shadow: 1px 1px 1px red;
+}
+
+mark {
+	background-color: transparent;
+}
+
+strong {
+	font-weight: normal;
+}
+
+em {
+	font-style: normal;
+}
+
+#image { /*centrer mon image*/
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+#renseignements {
+	text-align: center;
+	color: red;
+	font-weight: bold;
+}
