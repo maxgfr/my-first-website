@@ -1,1 +1,3 @@
-# my_first_website
+# my-first-website
+
+Using vanilla.js
